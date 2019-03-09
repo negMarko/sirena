@@ -5,7 +5,7 @@
   "background_color": "#075593",
   "display": "standalone",
   "orientation": "portrait",
-  "start_url": "/sirena/index.html",
+  "start_url": "index.html?launcher=true",
   "icons": [
     {
       "src": "icon-72x72.png",
