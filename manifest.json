@@ -5,8 +5,7 @@
   "background_color": "#075593",
   "display": "standalone",
   "orientation": "portrait",
-  "Scope": "/",
-  "start_url": "/",
+  "start_url": "https://negmarko.github.io/sirena/",
   "icons": [
     {
       "src": "icon-72x72.png",
