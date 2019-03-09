@@ -4,9 +4,12 @@ body {
 }
 
 .mode {
-    border-radius: 8px;
+    
     background: #c8c8c8;
 }
 #trigger{
+    height:150px;
+}
+#toggle{
     height:150px;
 }

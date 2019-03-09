@@ -19,8 +19,9 @@
 					<p class="range-field">
 						<span>Volumen</span>
 						<input class="range-field" type="range" min="0" max="1" step="0.0001" value="0.5"
-							oninput="changeVolume(this.value)" />
+						oninput="changeVolume(this.value)" />
 					</p>
+					
 
 					<p class="range-field">
 						<span>Pitch</span>
@@ -44,10 +45,8 @@
 							oninput="changeCutoff(this.value)" />
 					</p>
 					<div class="row center">
-						<input class="btn mode" id="toggle" type="button" value="SQUARE" onclick="mode(this.value);">
-					</div>
-					<div class="row center">
-						<input class="btn-large col s12" id="trigger" type="button" value="TRIGGER" ;">
+						<input class="btn-large mode col s2" id="toggle" type="button" value="SQUARE" onclick="mode(this.value);">
+						<input class="btn-large col s10" id="trigger" type="button" value="TRIGGER" ;">
 					</div>
 				</form>
 			</div>
