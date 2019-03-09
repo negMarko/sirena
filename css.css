@@ -1,6 +1,7 @@
 body {
     padding: 0;
     margin: 0;
+    background-image: linear-gradient(to right, #066f0b, #388107, #5b9202, #7ea300, #a1b400, #b3ae00, #c3a700, #d29f00, #cc8000, #c36000, #b83c00, #aa0000);
 }
 
 .mode {
