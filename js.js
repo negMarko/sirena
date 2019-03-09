@@ -77,7 +77,7 @@ var audioCtx = new (window.AudioContext || window.webkitAudioContext)();
 			function mouseup(event)
 			{    
 				event.preventDefault();
-				document.getElementById("trigger").style.backgroundColor = "rgba(200,200,200,1)";				
+				document.getElementById("trigger").style.backgroundColor = "rgba(23, 23, 196, 0.877)";				
 				gainNodeB.gain.value = 0;
 			}
 			
@@ -96,7 +96,7 @@ var audioCtx = new (window.AudioContext || window.webkitAudioContext)();
 			{
 				if (e.keyCode == "32")
 				{
-					document.getElementById("trigger").style.backgroundColor = "rgba(255,50,50,1)";
+					document.getElementById("trigger").style.backgroundColor = "rgba(23, 23, 196, 0.5)";
 					gainNodeB.gain.value = 1;
 				}
 			}
@@ -142,14 +142,14 @@ var audioCtx = new (window.AudioContext || window.webkitAudioContext)();
 			{
 			  document.getElementById("toggle").blur();
 			
-			  if(document.getElementById("toggle").value=="TRIANGLE")
+			  if(document.getElementById("toggle").value=="TRIANGULAR")
 			  {
-			  	document.getElementById("toggle").value="SQUARE";
+			  	document.getElementById("toggle").value="CUADRADA";
 			  	oscillatorB.type = 'square';
 			  }
-			  else if(document.getElementById("toggle").value=="SQUARE")
+			  else if(document.getElementById("toggle").value=="CUADRADA")
 			  {
-			    document.getElementById("toggle").value="TRIANGLE";
+			    document.getElementById("toggle").value="TRIANGULAR";
 			    oscillatorB.type = 'triangle';
 			  }
 			}

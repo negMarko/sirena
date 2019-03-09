@@ -9,7 +9,13 @@ body {
 }
 
 #trigger {
-    height: 150px;
+    font-size: 6em;
+    height: 100px;
+    background-color: rgba(23, 23, 196, 0.877);
+}
+#toggle{
+
+    background-color: rgba(0, 105, 65, 0.658);
 }
 
 span{

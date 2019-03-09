@@ -7,6 +7,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 	<link rel="stylesheet" href="css.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 
 </head>
 
@@ -19,7 +21,7 @@
 				<form action="#">
 					<p class="range-field">
 						<span>Volumen</span>
-						<input type="range" min="0" max="1" step="0.0001" value="0.5"
+						<input  type="range" min="0" max="1" step="0.0001" value="0.5"
 						oninput="changeVolume(this.value)" />
 					</p>
 					
@@ -46,10 +48,10 @@
 							oninput="changeCutoff(this.value)" />
 					</p>
 					<div class="row center">
-						<input class="btn-small col s12 mode" id="toggle" type="button" value="SQUARE" onclick="mode(this.value);">
+						<input class="btn-small col s12 mode" id="toggle" type="button" value="CUADRADA" onclick="mode(this.value);">
 					</div>
 					<div class="row center">
-						<input class="btn-large col s12" id="trigger" type="button" value="TRIGGER" ;">
+						<a class="btn col s12 pulse" id="trigger"><i class="material-icons">play_arrow</i></a>
 					</div>
 				</form>
 			</div>
