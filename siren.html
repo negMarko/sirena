@@ -11,14 +11,15 @@
 </head>
 
 <body>
-	<br>
+	
 	<div class="container">
 		<div class="row">
 			<div class="col s12 m6 l6 offset-m3 offset-l3">
+				<br>
 				<form action="#">
 					<p class="range-field">
 						<span>Volumen</span>
-						<input class="range-field" type="range" min="0" max="1" step="0.0001" value="0.5"
+						<input type="range" min="0" max="1" step="0.0001" value="0.5"
 						oninput="changeVolume(this.value)" />
 					</p>
 					
@@ -45,7 +46,7 @@
 							oninput="changeCutoff(this.value)" />
 					</p>
 					<div class="row center">
-						<input class="btn mode" id="toggle" type="button" value="SQUARE" onclick="mode(this.value);">
+						<input class="btn-small col s12 mode" id="toggle" type="button" value="SQUARE" onclick="mode(this.value);">
 					</div>
 					<div class="row center">
 						<input class="btn-large col s12" id="trigger" type="button" value="TRIGGER" ;">
