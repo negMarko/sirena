@@ -142,14 +142,14 @@ var audioCtx = new (window.AudioContext || window.webkitAudioContext)();
 			{
 			  document.getElementById("toggle").blur();
 			
-			  if(document.getElementById("toggle").value=="TRIANGLE")
+			  if(document.getElementById("toggle").value=="TR")
 			  {
-			  	document.getElementById("toggle").value="SQUARE";
+			  	document.getElementById("toggle").value="SQ";
 			  	oscillatorB.type = 'square';
 			  }
-			  else if(document.getElementById("toggle").value=="SQUARE")
+			  else if(document.getElementById("toggle").value=="SQ")
 			  {
-			    document.getElementById("toggle").value="TRIANGLE";
+			    document.getElementById("toggle").value="TR";
 			    oscillatorB.type = 'triangle';
 			  }
 			}
