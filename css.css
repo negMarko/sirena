@@ -5,11 +5,10 @@ body {
 
 .mode {
     border-radius: 8px;
-    background: #c8c8c8;
 }
 
 #trigger {
-    font-size: 6em;
+    
     height: 100px;
     background-color: rgba(23, 23, 196, 0.877);
 }
