@@ -58,7 +58,24 @@
 	</div>
 	<script src="js.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
+	<script>
+		if ('serviceWorker' in navigator) {
+		  console.log("El Navegador admite service workers");
+		  window.addEventListener('load', function () {
+			//navigator.serviceWorker.register('sw_offlinepage.js')
+			//navigator.serviceWorker.register('sw_offlinesite.js')
+			navigator.serviceWorker.register('sw.js')
+	
+			  .then(function (registration) {
+				console.log('Service worker registrado de modo correcto');
+				console.log('Scope: ' + registration.scope)
+			  }, function (error) {
+				console.log('El registro del Service worker ha fallado');
+				console.log(error)
+			  });
+		  });
+		}
+	  </script>
 </body>
 
 </html>
