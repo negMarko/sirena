@@ -25,12 +25,12 @@ span {
 
 @keyframes AnimationName {
     0% {
-        background-position: 44% 0%
+        background-position: 35% 0%
     }
     50% {
-        background-position: 57% 100%
+        background-position: 45% 90%
     }
     100% {
-        background-position: 44% 0%
+        background-position: 35% 0%
     }
 }
